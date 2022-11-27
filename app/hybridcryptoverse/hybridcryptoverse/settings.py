@@ -75,8 +75,14 @@ WSGI_APPLICATION = "hybridcryptoverse.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "hybridCryptoverse",
+        #"USER": "RoyKent",
+        #"PASSWORD": "ZloU6FUU0SGB0X5k06NE",
+        #"HOST": "django-dev.cluster-cqwgoch2sxz7.us-east-1.rds.amazonaws.com",
+        "USER": "RoyKent",
+        "PASSWORD": "ZloU6FUU0SGB0X5k06NE",
+        "HOST": "10.0.4.10",
     }
 }
 
