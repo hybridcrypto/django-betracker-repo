@@ -6,4 +6,5 @@ Initial capital deposited, target capital recovery, daily overall portfolio repo
 
 ## What To Expect Next
 
-The first draft of the app is scheduled for 2022Q4.
+1. The first draft of the app is scheduled for 2022Q4.
+2. DFK API integration.
